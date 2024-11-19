@@ -1,4 +1,4 @@
-FROM ruby:2.5.1
+FROM ruby:2.7.8
 
 RUN gem install slim tilt cuba rack
 RUN apt-get update && apt-get install --upgrade dnsutils python-pip -y
